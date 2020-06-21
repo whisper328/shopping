@@ -1,12 +1,12 @@
 import Vue from 'vue'
 import App from './App.vue'
 import axios from 'axios'
-import VueAxios from 'vue-axios'
+import VueAxios from 'vue-axios'           
 import router from './router'
 // import env from './env'
 
 // 定义一个mock的开关
-const mock = true;
+const mock = false;
 // 这里使用require  import是预编译加载,在编译的时候,
 // import就会被加载进来,写入内存当中,而require执行中才会加载
 if(mock){

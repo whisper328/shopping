@@ -1,9 +1,10 @@
 <template>
   <div>
-    this is homes
+    <!-- this is homes -->
     <nav-header></nav-header>
-    <nav-footer></nav-footer>
     <router-view></router-view>
+    <nav-footer></nav-footer>
+    
   </div>
 </template>
 
